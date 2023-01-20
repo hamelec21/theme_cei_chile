@@ -1,0 +1,420 @@
+<!doctype html>
+<html lang="cl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link href="../dist/output.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+  <div class="relative z-20">
+    <div class="grid grid-cols-3 mx-auto fixed top-0 left-0 right-0 bg-white ">
+
+      <!--Logo-->
+
+      <div class="col-span-3  flex justify-center lg:col-span-1 mt-4">
+        <img src="/src/img/logo_cei.png" class="h-20">
+      </div>
+
+      <!--Menu-->
+
+      <div class="mt-4">
+
+        <nav class=" flex-grow mx-auto">
+
+          <div class="items-center hidden space-x-1 md:flex justify-start">
+
+            <div class="items-center hidden space-x-1 md:flex">
+
+              <ul class="flex items-center justify-center font-semibold">
+                <li class="relative group px-3 py-2">
+                  <a href="index.html"
+                    class="cursor-default px-2 py-0 border-2 border-white border-r-gray-600 h-8 text-sm font-light hover:text-amber-700 ">HOME
+                  </a>
+                </li>
+
+                <li class="relative group px-1 py-2">
+                  <a href="nosotros.html"
+                    class=" cursor-default px-2 py-0 border-2 border-white border-r-gray-600 h-8 text-sm font-light hover:text-amber-700 ">NOSOTROS
+                  </a>
+                </li>
+
+
+                <li class="relative group px-1 py-2">
+                  <a href="cursos.html"
+                    class=" cursor-default px-2 py-0 border-2 border-white border-r-gray-600 h-8 text-sm font-light hover:text-amber-700 ">PROGRAMAS
+                  </a>
+                </li>
+
+
+
+                <li class="relative group px-1 py-2">
+                  <button
+                    class=" cursor-default px-2 py-0 border-2 border-white border-r-gray-600 h-8 text-sm font-light hover:text-amber-700 ">DOCUMENTOS
+                  </button>
+                  <div
+                    class="absolute top-0 -left-48 transition group-hover:translate-y-5 translate-y-0 opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-500 ease-in-out group-hover:transform z-50 min-w-[560px] transform">
+                    <div class="relative top-6 p-6 bg-white  shadow-xl w-full opacity-90">
+                      <div
+                        class="w-10 h-10 bg-white transform rotate-45 absolute top-0 z-0 translate-x-0 transition-transform group-hover:translate-x-[12rem] duration-500 ease-in-out rounded-sm">
+                      </div>
+
+                      <div class="relative z-10">
+                        <div class="grid grid-cols-2 gap-6">
+                          <div>
+
+                            <ul class="mt-3 text-[15px]">
+                              <li>
+                                <a href="insights.html"
+                                  class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold  hover:text-amber-700">
+                                  Insights
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+
+                          <div>
+
+                            <ul class="mt-3 text-[15px]">
+                              <li>
+                                <a href="cursos.html"
+                                  class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold  hover:text-amber-700">
+                                  Estudios
+
+                                </a>
+                              </li>
+
+
+                            </ul>
+                          </div>
+
+                          
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="relative group px-1 py-2">
+                  <a href="noticias.html"
+                    class=" cursor-default px-2 py-0 border-2 border-white border-r-gray-600 h-8 text-sm font-light hover:text-amber-700 ">NOTICIAS
+                  </a>
+                </li>
+
+
+                <li class="relative group px-1 py-2">
+                  <a href="fqa.html"
+                    class=" cursor-default px-2 py-0 border-2 border-white border-r-gray-600 h-8 text-sm font-light hover:text-amber-700 ">FQA
+                  </a>
+                </li>
+
+               
+                <li class="relative group px-1 py-2">
+                  <a href="contacto.html" class=" cursor-default font-light hover:text-amber-700 text-sm">CONTACTO
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+
+
+          
+
+          <!--boton-->
+
+          <div class="flx  items-left md:hidden">
+            <button class="mobile-menu-button">
+              <svg class="w-6 h-6  text-gray-900" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+              </svg>
+            </button>
+          </div>
+
+          <!-- mobile menu -->
+          <div class="hidden mobile-menu md:hidden px-0 ">
+            <ul>
+              <li class="py-2">
+                <a href="index.html" class="cursor-default px-2 py-0 border-2 border-white  text-sm font-light hover:text-amber-700">HOME
+                </a>
+              </li>
+
+              <li class="py-2">
+                <a href="nosotros.html" class="cursor-default px-2 py-0 border-2 border-white  text-sm font-light hover:text-amber-700">NOSOTROS
+                </a>
+              </li>
+
+              <li class="py-2">
+                <a href="cursos.html" class="cursor-default px-2 py-0 border-2 border-white text-sm font-light hover:text-amber-700">PROGRAMAS
+                </a>
+              </li>
+
+              <li class="py-2">
+                <a href="insights.html" class=" cursor-default px-2 py-0 border-2 border-white   text-sm font-light hover:text-amber-700">INSIGHTS
+                </a>
+              </li>
+
+
+              <li class="py-2">
+                <a href="#" class=" cursor-default px-2 py-0 border-2 border-white text-sm font-light hover:text-amber-700">ESTUDIOS
+                </a>
+              </li>
+
+              <li class="py-2">
+                <a href="noticias.html" class="cursor-default px-2 py-0 border-2 border-white h-8 text-sm font-light hover:text-amber-700">NOTICIAS
+
+                </a>
+              </li>
+
+              <li class="py-2">
+                <a href="fqa.html" class="cursor-default px-2 py-0 border-2 border-white h-8 text-sm font-light hover:text-amber-700">FQA
+
+                </a>
+              </li>
+
+              <li class="py-2">
+                <a href="contacto.html" class="cursor-default px-2 py-0 border-2 border-white h-8 text-sm font-light hover:text-amber-700 ">CONTACTO
+
+                </a>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </nav>
+
+      </div>
+
+      <!--contacto-->
+
+      
+
+    </div>
+
+  </div>
+
+
+  <!--banner-->
+  <div class=" invisible lg:visible md:visible">
+    <img src="../src/img/foto-banner-noticias.png" class="w-full ">
+
+    <a href="index.html">
+      <div class="bg-gray-700 w-12 h-12 -translate-y-6  text-white relative z-20 ml-20">
+        <div class="text-center text-white">
+          <div class="py-2 px-2">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="w-8 h-8">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+            </svg>
+          </div>
+        </div>
+      </div>
+
+    </a>
+  </div>
+
+  <!--fin de Boton Atras -->
+
+  <!--Inicio titulo pagina-->
+
+  <div class=" lg:-translate-y-12 md:translate-y-64  bg-gray-100 w-full h-48">
+
+    <div class=":text-left lg:text-left py-20 px-20 text-3xl font-light text-gray-900">NOTICIAS</div>
+  </div>
+  <!--Fin titulo pagina-->
+
+  <div class="container mx-auto mt-5">
+
+    <div class="grid md:grid-cols-1 lg:grid-cols-2 gap-4 px-4">
+
+      <!--card uno-->
+
+      <div class="flex flex-col lg:flex-row lg:space-x-5 py-1">
+        <div class="lg:w-2/5 w-full">
+          <img src="img/foto-insinghts.jpg" class=" object-contain">
+        </div>
+        <div class="lg:w-3/5 w-full px-4 border border-gray-200">
+          <div class="flex flex-row justify-between px-5 py-4 ">
+            <div class="bg-gray-700 w-20 text-center text-white">Noticia</div>
+            <div class="flex space-x-2"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5m-9-6h.008v.008H12v-.008zM12 15h.008v.008H12V15zm0 2.25h.008v.008H12v-.008zM9.75 15h.008v.008H9.75V15zm0 2.25h.008v.008H9.75v-.008zM7.5 15h.008v.008H7.5V15zm0 2.25h.008v.008H7.5v-.008zm6.75-4.5h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V15zm0 2.25h.008v.008h-.008v-.008zm2.25-4.5h.008v.008H16.5v-.008zm0 2.25h.008v.008H16.5V15z" />
+              </svg>
+              <div class="font-bold text-gray-700">
+                09-Nov-2022
+              </div>
+            </div>
+          </div>
+          <a href="insights_contenido.html">
+            <h1 class="text-gray-700 font-bold text-xl py-2">Becoming tree, becoming memory. Social-ecological fabrics
+              in
+              Pewen
+              (Araucaria
+              araucana) landscapes of the
+              southern Andes.</h1>
+          </a>
+
+        </div>
+
+
+
+      </div>
+
+
+      <!--card dos-->
+
+      <div class="flex flex-col lg:flex-row lg:space-x-5 py-1">
+        <div class="lg:w-2/5 w-full">
+          <img src="img/foto-insinghts.jpg" class=" object-contain">
+        </div>
+        <div class="lg:w-3/5 w-full px-4 border border-gray-200">
+          <div class="flex flex-row justify-between px-5 py-4 ">
+            <div class="bg-gray-700 w-20 text-center text-white">Noticia</div>
+            <div class="flex space-x-2"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5m-9-6h.008v.008H12v-.008zM12 15h.008v.008H12V15zm0 2.25h.008v.008H12v-.008zM9.75 15h.008v.008H9.75V15zm0 2.25h.008v.008H9.75v-.008zM7.5 15h.008v.008H7.5V15zm0 2.25h.008v.008H7.5v-.008zm6.75-4.5h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V15zm0 2.25h.008v.008h-.008v-.008zm2.25-4.5h.008v.008H16.5v-.008zm0 2.25h.008v.008H16.5V15z" />
+              </svg>
+              <div class="font-bold text-gray-700">
+                09-Nov-2022
+              </div>
+            </div>
+          </div>
+          <a href="insights_contenido.html">
+            <h1 class="text-gray-700 font-bold text-xl py-2">Becoming tree, becoming memory. Social-ecological fabrics
+              in
+              Pewen
+              (Araucaria
+              araucana) landscapes of the
+              southern Andes.</h1>
+          </a>
+
+        </div>
+
+
+
+      </div>
+
+
+      <!--card tres-->
+
+      <div class="flex flex-col lg:flex-row lg:space-x-5 py-1">
+        <div class="lg:w-2/5 w-full">
+          <img src="img/foto-insinghts.jpg" class=" object-contain">
+        </div>
+        <div class="lg:w-3/5 w-full px-4 border border-gray-200">
+          <div class="flex flex-row justify-between px-5 py-4 ">
+            <div class="bg-gray-700 w-20 text-center text-white">Noticia</div>
+            <div class="flex space-x-2"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5m-9-6h.008v.008H12v-.008zM12 15h.008v.008H12V15zm0 2.25h.008v.008H12v-.008zM9.75 15h.008v.008H9.75V15zm0 2.25h.008v.008H9.75v-.008zM7.5 15h.008v.008H7.5V15zm0 2.25h.008v.008H7.5v-.008zm6.75-4.5h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V15zm0 2.25h.008v.008h-.008v-.008zm2.25-4.5h.008v.008H16.5v-.008zm0 2.25h.008v.008H16.5V15z" />
+              </svg>
+              <div class="font-bold text-gray-700">
+                09-Nov-2022
+              </div>
+            </div>
+          </div>
+          <a href="insights_contenido.html">
+            <h1 class="text-gray-700 font-bold text-xl py-2">Becoming tree, becoming memory. Social-ecological fabrics
+              in
+              Pewen
+              (Araucaria
+              araucana) landscapes of the
+              southern Andes.</h1>
+          </a>
+
+        </div>
+
+
+
+      </div>
+
+
+      <!--card cuatro-->
+
+      <div class="flex flex-col lg:flex-row lg:space-x-5 py-1">
+        <div class="lg:w-2/5 w-full">
+          <img src="img/foto-insinghts.jpg" class=" object-contain">
+        </div>
+        <div class="lg:w-3/5 w-full px-4 border border-gray-200">
+          <div class="flex flex-row justify-between px-5 py-4 ">
+            <div class="bg-gray-700 w-20 text-center text-white">Noticia</div>
+            <div class="flex space-x-2"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5m-9-6h.008v.008H12v-.008zM12 15h.008v.008H12V15zm0 2.25h.008v.008H12v-.008zM9.75 15h.008v.008H9.75V15zm0 2.25h.008v.008H9.75v-.008zM7.5 15h.008v.008H7.5V15zm0 2.25h.008v.008H7.5v-.008zm6.75-4.5h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V15zm0 2.25h.008v.008h-.008v-.008zm2.25-4.5h.008v.008H16.5v-.008zm0 2.25h.008v.008H16.5V15z" />
+              </svg>
+              <div class="font-bold text-gray-700">
+                09-Nov-2022
+              </div>
+            </div>
+          </div>
+          <a href="insights_contenido.html">
+            <h1 class="text-gray-700 font-bold text-xl py-2">Becoming tree, becoming memory. Social-ecological fabrics
+              in
+              Pewen
+              (Araucaria
+              araucana) landscapes of the
+              southern Andes.</h1>
+          </a>
+
+        </div>
+
+
+
+      </div>
+
+
+
+
+
+
+    </div>
+
+
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+  <footer class="bg-gray-200 flex justify-around">
+
+    <div class="">Logo</div>
+    <div class="">Menu</div>
+    <div class="">Áreas de negocio</div>
+
+  </footer>
+
+
+  <script>
+    // grab everything we need
+    const btn = document.querySelector("button.mobile-menu-button");
+    const menu = document.querySelector(".mobile-menu");
+
+    // add event listeners
+    btn.addEventListener("click", () => {
+      menu.classList.toggle("hidden");
+    });
+  </script>
+
+</body>
+
+</html>
